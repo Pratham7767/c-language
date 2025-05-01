@@ -24,9 +24,9 @@ int main() {
   // generate the pixel data
   for (int x = 0; x < SQUARE_SIZE; x++) {
     for (int y = 0; y < SQUARE_SIZE; y++) {
-      o_file.pixel_data[x][y].blue  = 0;
-      o_file.pixel_data[x][y].green = 0;
-      o_file.pixel_data[x][y].red = 255;
+      o_file.pixel_data[x][y].blue  = 25;
+      o_file.pixel_data[x][y].green = 25;
+      o_file.pixel_data[x][y].red = 56;
     }
   }
 
