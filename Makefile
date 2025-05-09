@@ -12,4 +12,4 @@ connectgdb: main.elf
 	gdb-multiarch main.elf -ex "target remote localhost:1234" -ex "break_start" -ex "continue" -q 
 
 findthecutest: 
-	echo "It's the one looking at the screen Baby ❤️👉🏻👈🏻"
+	echo "It's the one looking at the screen Baby ❤️\n I love you from Earth🌏 to Moon🌜 and back, \n you'r the best thing that has ever happned to me😳"
