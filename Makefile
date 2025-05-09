@@ -5,7 +5,7 @@ machinecode : m.s m.ld
 printbinary: main.bin 
 	xxd -e -c 4 -g 4 main.bin
 
-startquemu: main.elf 
+startqemu: main.elf 
 	qemu-system-riscv32 -S -M virt -nographic -bios none -kernel main.elf -gdb tcp::1234
 
 connectgdb: main.elf 
