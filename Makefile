@@ -15,4 +15,7 @@ findthecutest:
 	echo "It's the one looking at the screen Baby ❤️\n I love you from Earth🌏 to Moon🌜 and back, \n you'r the best thing that has ever happned to me😳"
 
 clear: 
-	rm *.bin *.out *.elf 
+	rm *.bin *.out *.elf c-asm.s 
+
+assembly : 
+	riscv64-unknown-elf-gcc -O0 -nostdlib -march=rv32i -mabi=ilp32 -Wl,-Tm.ld c-asm.c -S 
