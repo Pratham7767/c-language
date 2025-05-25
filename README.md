@@ -32,7 +32,3 @@ Details of the RISC-V 32i Instruction Encoding: [Download the PDF](https://githu
 1. [ISO Standard](https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 1. [GNU C Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.pdf)
 
-# License and Support
-```
-All rights reserved. For more information contact support@pyjamabrah.com
-```
