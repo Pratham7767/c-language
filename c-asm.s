@@ -5,26 +5,23 @@
 	.attribute stack_align, 16
 	.text
 	.align	2
-	.globl	test_funct
-	.type	test_funct, @function
-test_funct:
+	.globl	test_fuction
+	.type	test_fuction, @function
+test_fuction:
 	addi	sp,sp,-32
 	sw	s0,28(sp)
 	addi	s0,sp,32
 	lui	a5,%hi(.LC0)
-	lw	a4,%lo(.LC0)(a5)
-	lw	a5,%lo(.LC0+4)(a5)
-	sw	a4,-24(s0)
+	lw	a5,%lo(.LC0)(a5)
 	sw	a5,-20(s0)
-	li	a5,0
+	nop
 	mv	a0,a5
 	lw	s0,28(sp)
 	addi	sp,sp,32
 	jr	ra
-	.size	test_funct, .-test_funct
+	.size	test_fuction, .-test_fuction
 	.section	.rodata
-	.align	3
+	.align	2
 .LC0:
-	.word	858993459
-	.word	1079956275
+	.word	1065626223
 	.ident	"GCC: () 9.3.0"

@@ -1,5 +1,3 @@
-int test_funct(){
-
-    double alpha = 123.3;
-    return 0;
+int test_fuction(){
+    float ch= 1.032545;
 }
